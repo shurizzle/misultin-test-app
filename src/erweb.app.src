@@ -1,0 +1,13 @@
+{application, erweb,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  misultin
+                 ]},
+  {mod, { erweb_app, []}},
+  {env, []}
+ ]}.
