@@ -1,0 +1,6 @@
+#!/bin/sh
+
+if [[ -d deps/herml ]]; then
+  echo '==> herml (clean)'
+  make -C deps/herml clean &>/dev/null
+fi

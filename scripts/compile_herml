@@ -1,0 +1,6 @@
+#!/bin/sh
+
+if [[ -d deps/herml ]]; then
+  echo '==> herml (compile)'
+  make -C deps/herml &>/dev/null
+fi
