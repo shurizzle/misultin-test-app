@@ -1,13 +1,18 @@
 {application, erweb,
  [
   {description, ""},
-  {vsn, "1"},
+  {vsn, "0.1"},
+  {modules, [
+    erweb_app,
+    json
+  ]},
   {registered, []},
+  {env, []},
   {applications, [
                   kernel,
                   stdlib,
-                  misultin
-                 ]},
-  {mod, { erweb_app, []}},
-  {env, []}
+                  misultin,
+                  erlydtl,
+                  rfc4627_jsonrpc
+                 ]}
  ]}.

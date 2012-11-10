@@ -1,4 +1,0 @@
-#!/bin/sh
-
-cd deps/json
-./rebar compile
