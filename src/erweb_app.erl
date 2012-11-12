@@ -33,4 +33,4 @@ handle('GET', ["users", UserName, "messages"], Req) ->
   Req:ok([{"Content-Type", "text/html"}], Res);
 
 handle(_, _, Req) ->
-  Req:respond(404, [{"Content-Typpe", "text/plain"}], "Page not found.").
+  Req:respond(404, [{"Content-Type", "text/plain"}], "Page not found.").
